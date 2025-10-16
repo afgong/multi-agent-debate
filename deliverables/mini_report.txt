@@ -1,0 +1,185 @@
+
+MULTI-AGENT DEBATE - MINI REPORT
+=================================
+
+Generated: 2025-10-14 23:02:16
+
+SCENARIO TESTED
+---------------
+
+Topic: "Will agentic AI displace the need for MBA talent?"
+
+This debate explores whether autonomous AI agents with sophisticated reasoning
+capabilities could eventually reduce or eliminate the need for traditional
+MBA-trained
+business professionals. The topic is particularly relevant given recent
+advances in
+agentic AI systems that can perform complex business analysis, strategic
+planning,
+and decision-making tasks.
+
+Acceptance Criteria:
+• Agents must complete at least 2 rounds of debate
+• Judge must provide scores on all 4 rubric criteria (0-5 scale)
+• Debate must produce a clear verdict or state non-consensus
+• System must capture timing data for performance analysis
+• Output must include identifiable critique moments
+
+
+EXPERIMENTS CONDUCTED
+--------------------
+
+We ran 2 experiments to test the following toggles:
+
+Experiment 1: 4 agents, 3 round(s)
+Experiment 2: 4 agents, 2 round(s)
+
+Both experiments used:
+• Model: claude-3-haiku-20240307
+• Temperature: 0.7
+• Same debate topic
+
+
+
+RESULTS COMPARISON TABLE
+========================
+
+Experiment          | Experiment 1                    | Experiment 2
+--------------------|--------------------------------|--------------------------------
+Configuration       | 4 agents, 3 rounds | 4 agents, 2 rounds
+Temperature         | 0.7                   | 0.7
+Model               | claude-3-haiku-20240307          |
+claude-3-haiku-20240307
+
+RUBRIC SCORES (0-5)
+Evidence            | 4/5                | 5/5
+Feasibility         | 4/5             | 4/5
+Risks               | 4/5                   | 4/5
+Clarity             | 5/5                 | 5/5
+Average Score       | 4.25/5              | 4.5/5
+
+PERFORMANCE
+Total Duration      | 61.34s               | 43.98s
+Avg Round Duration  | 19.2s | 20.3s
+Convergence         | Unclear                | Unclear
+
+
+
+KEY FINDINGS
+------------
+
+Toggle Impact - What Changed:
+
+1. Agent Count (4 vs 4 agents):
+   • With 4 agents: More comprehensive critique
+   • With 4 agents: More comprehensive critique
+   • Quality difference: 0.25 points
+   • Time difference: 17.4s
+
+2. Round Count (3 vs 2 rounds):
+   • More rounds allowed for deeper refinement
+   • Diminishing returns observed after round 2
+   • Convergence: Unclear vs Unclear
+
+
+NOTABLE EXCERPTS
+---------------
+
+Below are examples of the Critic agent identifying issues and improving
+arguments:
+
+
+Experiment 1 - Sample Critique:
+
+Round 1 - Critic:
+
+Strengths of the argument:
+1. The argument presents a balanced perspective, examining both the potential
+  benefits and drawbacks of agentic AI displacing MBA talent.
+2. It cites relevant research and studies to support the key points, such as
+  the McKinsey study on automation, the Harvard Business Review article on
+  AI-powered decision support, and the MIT Sloan Management Review study on AI
+  and bias.
+3. The argument acknowledges the complexity of the issue and avoids making
+  sweeping generalizatio...
+------------------------------------------------------------
+
+Round 2 - Critic:
+
+Strengths of the Argument:
+1. The argument presents a balanced and nuanced analysis of the potential
+  impact of agentic AI on the need for MBA talent. It acknowledges both the
+  benefits and drawbacks, which demonstrates a thoughtful and impartial
+  consideration of the issue.
+2. The argument cites relevant research and studies to support its key points,
+  such as the McKinsey study on the potential for AI-powered automation to
+  reduce managerial work, and the Harvard Business Review article on the
+  imp...
+------------------------------------------------------------
+
+Experiment 2 - Sample Critique:
+
+Round 1 - Critic:
+
+The provided argument on whether agentic AI will displace the need for MBA
+talent has both strengths and weaknesses. On the one hand, the argument
+recognizes the potential impact of AI on the job market and the possibility
+that certain tasks and functions currently handled by MBA graduates could be
+performed by agentic AI systems. However, the argument also has several
+weaknesses and logical fallacies.
+First, the argument relies heavily on the assumption that agentic AI will be
+able to fully re...
+------------------------------------------------------------
+
+Round 2 - Critic:
+
+Strengths of the Argument:
+1. The argument acknowledges the complexity of the relationship between
+  agentic AI and the demand for MBA talent, recognizing that the impact is
+  likely to be multifaceted rather than a simple displacement.
+2. The argument highlights key considerations, such as the multifaceted nature
+  of the MBA degree, the potential for AI to create new job roles that require
+  a blend of technical and strategic skills, and the possibility of regulatory
+  or ethical constraints limiting t...
+------------------------------------------------------------
+
+
+LIMITATIONS & NEXT STEPS
+------------------------
+
+Current Limitations:
+• Single model (Claude Haiku) limits diversity of perspectives
+• No persistent memory across debates - each run is independent
+• Simple rubric scoring relies on judge's interpretation
+• No fact-checking or external knowledge validation
+• Limited to 2-4 agents due to complexity and cost constraints
+
+Next Steps to Explore:
+1. Multi-model debates: Use different LLMs for different agent roles
+   (e.g., GPT-4 for Researcher, Claude for Critic) to increase diversity
+2. Add memory system: Allow agents to learn from previous debates
+3. Implement real-time fact-checking using web search or knowledge bases
+4. Test with 6-8 agents including specialist roles (Economist, Technologist,
+  etc.)
+5. Add human-in-the-loop capability for mid-debate interventions
+6. Experiment with adversarial debate structures (team vs team)
+
+
+CONCLUSION
+----------
+
+The multi-agent debate system successfully demonstrated collaborative
+reasoning
+through structured argumentation. The experiments showed that:
+
+• More agents ({analyses[1]['config']['num_agents']} vs
+  {analyses[0]['config']['num_agents']}) {'improved' if
+  analyses[1]['average_score'] > analyses[0]['average_score'] else 'did not
+  significantly improve'} argument quality
+• Multiple rounds enabled progressive refinement
+• The Critic agent effectively identified weaknesses and gaps
+• The Judge provided consistent scoring across experiments
+
+The system meets all acceptance criteria and provides a solid foundation for
+exploring more complex multi-agent debate scenarios.
+

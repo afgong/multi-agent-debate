@@ -1,0 +1,14 @@
+
+CONFIGURATION SUMMARY
+====================
+
+Model: claude-3-haiku-20240307
+Temperature: 0.7
+Number of Agents: 4
+Agent Roles: Researcher, Critic, Synthesizer, Judge
+Number of Rounds: 3
+Devil's Advocate: No
+Topic: Will agentic AI displace the need for MBA talent?
+Memory: No (stateless agents, context passed between rounds)
+
+

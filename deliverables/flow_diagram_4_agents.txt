@@ -1,0 +1,64 @@
+
+DEBATE FLOW - 4 AGENTS (2 ROUNDS)
+=================================
+
+Topic: "Will agentic AI displace the need for MBA talent?"
+
+┌─────────────────────────────────────────────────────────────┐
+│                         ROUND 1                              │
+└─────────────────────────────────────────────────────────────┘
+
+    ┌──────────────┐
+    │  RESEARCHER  │  Gathers evidence, presents balanced
+    │              │  arguments from multiple perspectives
+    └──────┬───────┘
+           │
+           ▼
+    ┌──────────────┐
+    │    CRITIC    │  Identifies weaknesses, challenges
+    │              │  assumptions, finds gaps in evidence
+    └──────┬───────┘
+           │
+           ▼
+    ┌──────────────┐
+    │ SYNTHESIZER  │  Integrates feedback, refines arguments,
+    │              │  resolves contradictions
+    └──────┬───────┘
+           │
+           ▼
+
+┌─────────────────────────────────────────────────────────────┐
+│                         ROUND 2                              │
+└─────────────────────────────────────────────────────────────┘
+
+    ┌──────────────┐
+    │  RESEARCHER  │  Builds on Round 1 synthesis,
+    │              │  addresses critiques
+    └──────┬───────┘
+           │
+           ▼
+    ┌──────────────┐
+    │    CRITIC    │  Re-evaluates refined arguments,
+    │              │  identifies remaining issues
+    └──────┬───────┘
+           │
+           ▼
+    ┌──────────────┐
+    │ SYNTHESIZER  │  Final integration and refinement
+    │              │
+    └──────┬───────┘
+           │
+           ▼
+
+┌─────────────────────────────────────────────────────────────┐
+│                    FINAL JUDGMENT                            │
+└─────────────────────────────────────────────────────────────┘
+
+    ┌──────────────┐
+    │    JUDGE     │  Evaluates all rounds on rubric:
+    │              │  • Evidence (0-5)
+    │              │  • Feasibility (0-5)
+    │              │  • Risks (0-5)
+    │              │  • Clarity (0-5)
+    │              │  Issues final verdict
+    └──────────────┘

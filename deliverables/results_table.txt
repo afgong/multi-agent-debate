@@ -1,0 +1,22 @@
+
+RESULTS COMPARISON TABLE
+========================
+
+Experiment          | Experiment 1                    | Experiment 2
+--------------------|--------------------------------|--------------------------------
+Configuration       | 4 agents, 3 rounds | 4 agents, 2 rounds
+Temperature         | 0.7                   | 0.7
+Model               | claude-3-haiku-20240307          |
+claude-3-haiku-20240307
+
+RUBRIC SCORES (0-5)
+Evidence            | 4/5                | 5/5
+Feasibility         | 4/5             | 4/5
+Risks               | 4/5                   | 4/5
+Clarity             | 5/5                 | 5/5
+Average Score       | 4.25/5              | 4.5/5
+
+PERFORMANCE
+Total Duration      | 61.34s               | 43.98s
+Avg Round Duration  | 19.2s | 20.3s
+Convergence         | Unclear                | Unclear

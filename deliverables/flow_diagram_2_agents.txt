@@ -1,0 +1,40 @@
+
+DEBATE FLOW - 2 AGENTS (2 ROUNDS)
+=================================
+
+Topic: "Will agentic AI displace the need for MBA talent?"
+
+┌─────────────────────────────────────────────────────────────┐
+│                         ROUND 1                              │
+└─────────────────────────────────────────────────────────────┘
+
+    ┌──────────────┐
+    │  RESEARCHER  │  Presents initial arguments with
+    │              │  evidence from multiple perspectives
+    └──────┬───────┘
+           │
+           ▼
+
+┌─────────────────────────────────────────────────────────────┐
+│                         ROUND 2                              │
+└─────────────────────────────────────────────────────────────┘
+
+    ┌──────────────┐
+    │  RESEARCHER  │  Refines arguments based on Round 1,
+    │              │  adds more depth and nuance
+    └──────┬───────┘
+           │
+           ▼
+
+┌─────────────────────────────────────────────────────────────┐
+│                    FINAL JUDGMENT                            │
+└─────────────────────────────────────────────────────────────┘
+
+    ┌──────────────┐
+    │    JUDGE     │  Evaluates all arguments on rubric:
+    │              │  • Evidence (0-5)
+    │              │  • Feasibility (0-5)
+    │              │  • Risks (0-5)
+    │              │  • Clarity (0-5)
+    │              │  Issues final verdict
+    └──────────────┘
